@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 0;
+    background-color: rgba(187, 187, 187, 0.397);
+    border-radius: 10px;
+    margin: 15px ;
+}
+
+
+body{
+    color: white;
+    background-image: url(backround.jpg);
+}
+.pemisah{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+.pembayaran{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 48%; 
+    height: 593px;
+}
+
+.pembayaran1{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 48%; 
+    height: 500px;
+}
+.hori{
+    border-bottom: 1px solid;
+}
+
+fieldset{
+    border:none;
+}
+
+.metodepembayaran{
+    width: 50px;
+    height: auto;
+}
+
+.logobca{
+    background-color:rgb(40, 16, 179);
+    border: rgb(40, 16, 179);
+}
+
+.logobri{
+    background-color:rgba(36, 105, 161, 0.97);
+    border: rgba(36, 105, 161, 0.97);
+}
+
+.logogopay{
+    background-color:rgba(19, 184, 234, 0.899);
+    border: rgba(19, 184, 234, 0.899);
+}
+
+.logoovo{
+    background-color:rgb(76, 37, 153);
+    border: rgb(76, 37, 153);
+}
+
+.profil{
+    justify-content: center;
+    width: 100px;
+    height: auto; 
+}
+
+.logomenu{
+    text-align: center;
+}
+
+address{
+
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.6);
+}
