@@ -1,0 +1,66 @@
+body{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.judul-login{
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+}
+
+.kotak-login{
+    margin-top: auto;
+    box-shadow: 0;
+    padding: 30px 45px;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-judul-isi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-isi{
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.form-input{
+    border: 1px solid;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    height: 35px;
+}
+
+.login-button{
+    border: 0;
+    border-radius: 25px;
+    background-color: red;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-button:hover{
+    background-color: rgba(225, 37, 4, 0.938);
+}
